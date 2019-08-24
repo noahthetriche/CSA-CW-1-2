@@ -1,0 +1,17 @@
+public class tempconverter
+{
+    public static void main(String[] args)
+    
+    {
+        final int BASE = 32;
+        final double CONVERSION_FACTOR = 9.0/5.0;
+        
+        int celtemp = 24;
+        double farentemp;
+        
+        farentemp = celtemp * CONVERSION_FACTOR + BASE;
+        
+        System.out.println ("Celcius Temperature:" + celtemp);
+        System.out.println ("Fahrenheit Temperature:" + farentemp);
+    }
+} //noah triche period 5
