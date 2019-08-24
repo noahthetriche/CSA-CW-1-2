@@ -1,0 +1,14 @@
+public class countdown
+{public static void main
+(String[]args)
+{
+System.out.print("three... ");
+System.out.print("two... ");
+System.out.print("one... ");
+System.out.print("zero... ");
+
+System.out.print("Liftoff! ");
+System.out.print("Huston, we have a problem.");
+}
+}
+//noah triche period 5
