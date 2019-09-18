@@ -1,0 +1,46 @@
+import java.util.Scanner;
+
+public class minof3
+{//open class
+    public static void main (String []args)
+    {//open void
+    int num1, num2, num3, min = 0;
+    
+    Scanner keyboard = new Scanner(System.in);
+    System.out.print("Enter Three Values: ");
+    
+    num1 = keyboard.nextInt();
+    num2 = keyboard.nextInt();
+    num3 = keyboard.nextInt();
+    
+    if (num1 < num2) //main if
+    { //open first if
+         if (num1 < num3)
+        {//open inner if
+            min = num1;
+        } //end of inner if
+      else
+        {//open first inner else
+            min = num3;
+        } //end of inner else
+    }//end of main if
+    
+    else 
+    {//open main else
+        if (num2 < num3)
+        {//open second inner if
+            min = num2;
+        }//close second inner if
+        else
+        {//open second 
+            min = num3;
+        }
+    }//closes main else
+        System.out.println("Minimum Value: " + min);
+      
+        
+  }//closes void
+      
+}//closes class
+
+//noah triche per 5
